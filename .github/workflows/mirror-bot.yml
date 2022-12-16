@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Wait and Early Trigger next workflow
         run: |
-          # Waits 300 minutes 
+          # Waits 50 minutes 
           while ((${TIME_LEFT:=300} > 0)); do
             printf "Please wait %.f minutes ...\n" "${TIME_LEFT}"
             sleep 5m
