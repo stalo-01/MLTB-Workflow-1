@@ -56,7 +56,7 @@ jobs:
 
       - name: Clone The Secret Mirror Repository
         run: |
-          git clone https://github.com/stalo-01/uswd21.git source
+          git clone https://github.com/mrcheat1/WZML.git source
           
       - name: cp the files
         run: |
